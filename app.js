@@ -1,7 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
-import { log } from "async";
 
 
 const app = express();
