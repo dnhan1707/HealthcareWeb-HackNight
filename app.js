@@ -82,7 +82,7 @@ app.get("/community", (req, res) => {
               }).catch((err) => {
                 console.error("Error updating document:", err);
               });
-            res.redirect("community.ejs");
+            res.redirect("community");
         }
         else
         {
