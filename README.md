@@ -52,7 +52,18 @@
 <ol start="4">
     <li>Start the application:</li>
 </ol>
-<pre><code>npm start</code></pre>
+<ol>
+    <li>Open first terminal and run</li>
+</ol>
+<pre><code>mongod</code></pre>
+<ol>
+    <li>Open second terminal and run</li>
+</ol>
+<pre><code>mongosh</code></pre>
+<ol>
+    <li>Open third terminal and run</li>
+</ol>
+<pre><code>nodemon app.js</code></pre>
 <ol start="5">
     <li>The application will run on <a href="http://localhost:3000">http://localhost:3000</a>.</li>
 </ol>
